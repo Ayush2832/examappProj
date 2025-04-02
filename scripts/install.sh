@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ~/ExamWebApp/frontend/ && npm install
-cd ~/ExamWebApp/backend/ && npm install
+cd ~/examappProj/frontend/ && npm install
+cd ~/examappProj/backend/ && npm install
 
-cd ~/ExamWebApp && sudo systemctl restart pm2-ubuntu.service
+cd ~/examappProj && sudo systemctl restart pm2-ubuntu.service
